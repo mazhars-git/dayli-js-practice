@@ -10,4 +10,5 @@ b.b = 2;
 b.c = '3';
 b.d = true;
 
-console.log(a.b, a.c, a.d);
+// console.log(a.b, a.c, a.d);
+
