@@ -42,6 +42,7 @@ else {
 
 //Grading system
 
+/*
 var num = 88;
 
 if (num > 100 || num < 0) {
@@ -67,5 +68,25 @@ else if (num >= 33 && num <=39) {
 }
 else {
     console.log('Result is Fail!')
+}
+
+*/
+
+//another example:
+
+var Apple = 10;
+var Banana = 40;
+var Orange = 30;
+
+if (Apple > Banana && Apple > Orange) {
+    console.log('Apple price is high.')
+}
+
+else if(Banana > Apple && Banana > Orange){
+    console.log('Banana price is high')
+}
+
+else{
+    console.log('Orange is high')
 }
 
