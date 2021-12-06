@@ -72,8 +72,9 @@ else {
 
 */
 
-//another example:
+//another example: big or small
 
+/*
 var Apple = 10;
 var Banana = 40;
 var Orange = 30;
@@ -89,4 +90,19 @@ else if(Banana > Apple && Banana > Orange){
 else{
     console.log('Orange is high')
 }
+*/
 
+
+
+//vowel or consonant check
+
+var letter = "I";
+
+letter = letter.toLocaleLowerCase();
+
+if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u") {
+    console.log('Vowel Letter')
+}
+
+else
+    console.log('Consonant Letter')
