@@ -42,26 +42,30 @@ else {
 
 //Grading system
 
-var num = 30;
+var num = 99;
 
-if (num >= 80) {
+if (num >= 80 && num <=100) {
     console.log('Result is A+')
 }
-else if (num >= 70) {
+else if (num >= 70 && num <=79) {
     console.log('Result is A')
 }
-else if (num >= 60) {
+else if (num >= 60 && num <=69) {
     console.log('Result is A-')
 }
-else if (num >= 50) {
+else if (num >= 50 && num <=59) {
     console.log('Result is B')
 }
-else if (num >= 40) {
+else if (num >= 40 && num <=49) {
     console.log('Result is D')
 }
-else if (num >= 33) {
+else if (num >= 33 && num <=39) {
     console.log('Result is C')
 }
-else {
+else if (num >=1 && num <=32) {
     console.log('Result is F')
+}
+
+else{
+    console.log('Ops!! Something Wrong')
 }
