@@ -15,6 +15,7 @@ b.d = true;
 
 //if, else if, else -----------------------
 
+/*
 var num = 5;
 
 if (num % 2 == 0) {
@@ -36,4 +37,31 @@ else if(num < 0){
 
 else {
     console.log('Zero')
+}
+*/
+
+//Grading system
+
+var num = 30;
+
+if (num >= 80) {
+    console.log('Result is A+')
+}
+else if (num >= 70) {
+    console.log('Result is A')
+}
+else if (num >= 60) {
+    console.log('Result is A-')
+}
+else if (num >= 50) {
+    console.log('Result is B')
+}
+else if (num >= 40) {
+    console.log('Result is D')
+}
+else if (num >= 33) {
+    console.log('Result is C')
+}
+else {
+    console.log('Result is F')
 }
