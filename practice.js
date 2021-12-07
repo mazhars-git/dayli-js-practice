@@ -150,10 +150,10 @@ switch (digit) {
 
 //****000002 */
 
-var letter = "E";
+var letter = "w";
 
 letter = letter.toLocaleLowerCase();
-
+/*
 switch (letter) {
     case 'a':
         console.log('vowel')
@@ -167,6 +167,19 @@ switch (letter) {
     case 'o':
         console.log('vowel')
         break;
+    case 'u':
+        console.log('vowel')
+        break;
+
+    default:
+        console.log('consonant')
+}
+*/
+switch (letter) {
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
     case 'u':
         console.log('vowel')
         break;
