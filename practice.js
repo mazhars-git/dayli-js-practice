@@ -110,7 +110,7 @@ else
 
 //switch, case, break, default
 
-var digit = "2";
+/*var digit = "-8";
 
 switch (digit) {
     case '1':
@@ -145,4 +145,32 @@ switch (digit) {
         break;
     default:
         console.log('Not a digit')
+}
+*/
+
+//****000002 */
+
+var letter = "E";
+
+letter = letter.toLocaleLowerCase();
+
+switch (letter) {
+    case 'a':
+        console.log('vowel')
+        break;
+    case 'e':
+        console.log('vowel')
+        break;
+    case 'i':
+        console.log('vowel')
+        break;
+    case 'o':
+        console.log('vowel')
+        break;
+    case 'u':
+        console.log('vowel')
+        break;
+
+    default:
+        console.log('consonant')
 }
