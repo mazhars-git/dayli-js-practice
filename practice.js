@@ -191,9 +191,17 @@ switch (letter) {
 
 //for loop, while loop anb do while loop, 
 
-let x = 0;
 
-for (let x = 0; x <= 10; x++) {
+// for (let x = 2; x <= 100; x= x+2) {
+//     console.log(x)
+    
+// }
+
+// console.log('End')
+
+for (let x = 10; x >= 1; x= x-1) {
     console.log(x)
     
 }
+
+console.log('End')
