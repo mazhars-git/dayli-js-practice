@@ -198,10 +198,19 @@ switch (letter) {
 // }
 
 // console.log('End')
-
+/*
 for (let x = 10; x >= 1; x= x-1) {
     console.log(x)
     
 }
 
 console.log('End')
+*/
+
+var sum = 0;
+
+for (let x = 1; x <=5; x++){
+    sum = sum + x;
+    console.log(sum);
+
+}
