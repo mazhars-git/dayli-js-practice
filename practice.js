@@ -175,6 +175,7 @@ switch (letter) {
         console.log('consonant')
 }
 */
+/*
 switch (letter) {
     case 'a':
     case 'e':
@@ -186,4 +187,13 @@ switch (letter) {
 
     default:
         console.log('consonant')
+} */
+
+//for loop, while loop anb do while loop, 
+
+let x = 0;
+
+for (let x = 0; x <= 10; x++) {
+    console.log(x)
+    
 }
