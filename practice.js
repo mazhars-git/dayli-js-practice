@@ -207,10 +207,22 @@ for (let x = 10; x >= 1; x= x-1) {
 console.log('End')
 */
 
-var sum = 0;
+/*var sum = 0;
 
 for (let x = 1; x <=5; x++){
     sum = sum + x;
     console.log(sum);
 
+}*/
+
+//while loop
+var i = 1;
+var sum = 0;
+
+while (i <= 50) {
+    sum = sum + i;
+    i++;
 }
+
+console.log(sum);
+
