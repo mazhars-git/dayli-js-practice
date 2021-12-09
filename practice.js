@@ -240,7 +240,7 @@ do{
 }
 while(i >=1)
 
-*/
+
 
 //break
 
@@ -251,4 +251,23 @@ for(i = 1; i <= 100; i++){
     }
     console.log(i)
 }
+
+
+
+for(i = 1; i <= 100; i++){
+    if (i % 2 == 0) {
+        continue;
+    }
+    console.log(i)
+}
+
+
+for(i = 1; i <= 100; i++){
+    if (i % 2 != 0) {
+        continue;
+    }
+    console.log(i)
+}
+
+*/
 
