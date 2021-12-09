@@ -269,5 +269,21 @@ for(i = 1; i <= 100; i++){
     console.log(i)
 }
 
+
+
+//Ternary operator
+
+var num = -5;
+
+var result = num > 0 ? "positive" : "negative";
+
+console.log(result);
+
 */
 
+var num1 = 80;
+var num2 = 90;
+
+var result = num1 > num2 ? "Big number" : 'Small';
+
+console.log(result)
