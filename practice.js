@@ -213,7 +213,7 @@ for (let x = 1; x <=5; x++){
     sum = sum + x;
     console.log(sum);
 
-}*/
+
 
 //while loop
 var i = 1;
@@ -228,4 +228,17 @@ while (i <= 100) {
 }
 
 console.log(sum);
+*/
+
+//do while loop
+
+var i = 15;
+
+do{
+    console.log(i);
+    i--
+}
+while(i >=1)
+
+
 
