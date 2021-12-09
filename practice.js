@@ -228,7 +228,7 @@ while (i <= 100) {
 }
 
 console.log(sum);
-*/
+
 
 //do while loop
 
@@ -240,5 +240,15 @@ do{
 }
 while(i >=1)
 
+*/
 
+//break
+
+
+for(i = 1; i <= 100; i++){
+    if (i == 50) {
+        break;
+    }
+    console.log(i)
+}
 
